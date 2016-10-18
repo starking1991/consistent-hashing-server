@@ -1,0 +1,74 @@
+{
+  "apps": [
+    {
+      "name": "connector1",
+      "max_memory_restart": "2024M",
+      "log_date_format": "YYYY-MM-DD HH:mm",
+      "out_file": "log/app.log",
+      "error_file": "log/err.log",
+      "script": "test/test-server.js",
+      "port": "7081",
+      "env": {
+        "DEBUG":"* node test/test-server.js",
+        "PORT": "7081",
+        "HOST":"localhost"
+      }
+    },
+    {
+      "name": "connector2",
+      "max_memory_restart": "2024M",
+      "log_date_format": "YYYY-MM-DD HH:mm",
+      "out_file": "log/app.log",
+      "error_file": "log/err.log",
+      "script": "test/test-server.js",
+      "port": "7082",
+      "env": {
+        "DEBUG":"* node test/test-server.js",
+        "PORT": "7082",
+        "HOST":"localhost"
+      }
+    },
+    {
+      "name": "connector3",
+      "max_memory_restart": "2024M",
+      "log_date_format": "YYYY-MM-DD HH:mm",
+      "out_file": "log/app.log",
+      "error_file": "log/err.log",
+      "script": "test/test-server.js",
+      "port": "7083",
+      "env": {
+        "DEBUG":"* node test/test-server.js",
+        "PORT": "7083",
+        "HOST":"localhost"
+      }
+    },
+    {
+      "name": "connector4",
+      "max_memory_restart": "2024M",
+      "log_date_format": "YYYY-MM-DD HH:mm",
+      "out_file": "log/app.log",
+      "error_file": "log/err.log",
+      "script": "test/test-server.js",
+      "port": "7084",
+      "env": {
+        "DEBUG":"* node test/test-server.js",
+        "PORT": "7084",
+        "HOST":"localhost"
+      }
+    },
+    {
+      "name": "connector5",
+      "max_memory_restart": "2024M",
+      "log_date_format": "YYYY-MM-DD HH:mm",
+      "out_file": "log/app.log",
+      "error_file": "log/err.log",
+      "script": "test/test-server.js",
+      "port": "7085",
+      "env": {
+        "DEBUG":"* node test/test-server.js",
+        "PORT": "7085",
+        "HOST":"localhost"
+      }
+    }
+  ]
+}

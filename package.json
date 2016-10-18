@@ -1,0 +1,27 @@
+{
+  "name": "consistent-hashing-server",
+  "version": "1.0.0",
+  "description": "consistent hashing servers,monitored by zookeeper",
+  "keywords": ["consistend-hashing", "zookeeper"],
+  "license": "MIT",
+  "author": "Zhou Peng <237613246@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/starking1991/consistent-hashing-server.git"
+  },
+  "scripts": {
+    "test": "pm2 start servers.json",
+    "stop":"pm2 stop servers.json"
+  },
+  "dependencies": {
+    "debug": "~2.2.0",
+    "socket.io": "~1.3.6",
+    "assert":"1.4.1",
+    "promise": "~7.0.4",
+    "underscore": "~1.8.3",
+    "pm2": "2.0.18",
+    "typescript": "~1.7.3",
+    "node-zookeeper-client":"0.2.2"
+  },
+  "main": "index"
+}

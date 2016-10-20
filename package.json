@@ -1,8 +1,8 @@
 {
   "name": "consistent-hashing-server",
-  "version": "1.0.0",
+  "version": "0.1.2",
   "description": "consistent hashing servers,monitored by zookeeper",
-  "keywords": ["consistend-hashing", "zookeeper"],
+  "keywords": ["consistend-hashing", "zookeeper","pm2"],
   "license": "MIT",
   "author": "Zhou Peng <237613246@qq.com>",
   "repository": {

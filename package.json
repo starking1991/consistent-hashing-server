@@ -14,7 +14,7 @@
     "stop":"pm2 stop servers.json"
   },
   "dependencies": {
-    "debug": "~2.2.0",
+    "debug": "~4.1.1",
     "assert":"1.4.1",
     "promise": "~7.0.4",
     "underscore": "~1.8.3",

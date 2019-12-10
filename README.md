@@ -99,17 +99,17 @@ var serverFactory = new ServerFactory(host+":"+port,"/connectors",5,constants.zo
 serverFactory.getServer(key);
 
 
-and you can test like
 
-run test-add-or-stop-a-server.js
+run test-add-or-stop-a-server.js (add server)
 
 serverFactory.getServer(10) return localhost:7083
 
-you can pm2 stop connector3,and wait the zookeeper timeout
+
+pm2 stop connector3 (stop server)
 
 serverFactory.getServer(10) return localhost:test
+
 
 then start connector3
 
 serverFactory.getServer(10) return localhost:7084
-```
